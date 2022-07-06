@@ -9,6 +9,7 @@ public class AppMenu {
         in = inScanner.nextLine();
         int number = Integer.parseInt(in) - 1;
         System.out.println("Digite la hora inicial: ");
+        System.out.println("Recuerde que 6:00 am es igual a 0, 7:00 am es 1...");
         String in2 = "";
         Scanner inScanner2 = new Scanner(System.in);
         in2 = inScanner2.nextLine();
